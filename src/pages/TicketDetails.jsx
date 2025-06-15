@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { apiGetTicketById } from "../api/ticketservice";
+import { apiGetTicketById } from "../api/ticketService";
 import "../style/TicketDetails.scss";
 
 //==============================================================
