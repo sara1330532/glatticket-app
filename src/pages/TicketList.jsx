@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { Link, Outlet } from "react-router-dom";
 import Swal from "sweetalert2";
 
-import { apiGetAllTickets, apiDeleteTicketById, apiUpdateTicketById } from "../api/ticketservice";
+import { apiGetAllTickets, apiDeleteTicketById, apiUpdateTicketById } from "../api/ticketService";
 import { addToCart } from "../features/cartSlice";
 
 import Ticket from "../components/Ticket";
