@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
-import { apiUpdateTicketById } from "../api/ticketservice";
+import { apiUpdateTicketById } from "../api/ticketService";
 import { TextField, Button, Box, Typography, Container } from "@mui/material";
 
 /**
